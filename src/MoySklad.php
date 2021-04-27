@@ -21,6 +21,7 @@ class MoySklad{
      * @var MoySklad[]
      */
     private static $instances = [];
+    
 
     private function __construct($login, $password, $posToken, $hashCode, $subdomain = "online")
     {
